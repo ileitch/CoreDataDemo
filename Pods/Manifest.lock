@@ -1,0 +1,36 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - FCYAsserts+TTLogger (1.2.2):
+    - TTLogger
+  - StaticLibAdapters (1.1)
+  - SVProgressHUD (2.0.3)
+  - TTLogger (2.0.0):
+    - TTLogger/Core (= 2.0.0)
+    - TTLogger/Crashlytics (= 2.0.0)
+  - TTLogger/Core (2.0.0):
+    - CocoaLumberjack (~> 2.0)
+  - TTLogger/Crashlytics (2.0.0):
+    - StaticLibAdapters
+    - TTLogger/Core
+
+DEPENDENCIES:
+  - FCYAsserts+TTLogger
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  FCYAsserts+TTLogger: 8807c853ac05c5e02019d14c60a449f5d099ed3a
+  StaticLibAdapters: 7bda8e74459a138c4746d077056bf6566b57d922
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TTLogger: 4ccbdf669b7dba90299c758172ed885fb9c33f89
+
+PODFILE CHECKSUM: a5cbba4188ef7870f6ee2ff1b1d79760504d6796
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+framework module StaticLibAdapters {
+  umbrella header "StaticLibAdapters-umbrella.h"
+
+  export *
+  module * { export * }
+}

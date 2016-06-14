@@ -1,0 +1,6 @@
+framework module FCYAsserts_TTLogger {
+  umbrella header "FCYAsserts+TTLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

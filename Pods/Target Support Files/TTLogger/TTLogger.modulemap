@@ -1,0 +1,6 @@
+framework module TTLogger {
+  umbrella header "TTLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}
